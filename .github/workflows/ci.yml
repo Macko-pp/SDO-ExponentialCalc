@@ -49,7 +49,7 @@ jobs:
           # (without this, Buildx would build it and then discard it)
           load: true
           # Name and tag the image, same as: docker build -t expo:1.0 .
-          tags: expo:1.0
+          tags: expo:1.0ioy8tcofyiguoh
 
       - name: Run test script
         # The | lets you write several commands on separate lines
