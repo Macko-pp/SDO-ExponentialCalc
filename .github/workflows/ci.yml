@@ -27,7 +27,7 @@ jobs:
           # Keep it beginner friendly: only fail on real errors
           # (warnings and style hints are shown but don't stop the pipeline)
           failure-threshold: error
-
+w4^Z&E%68rx97cto8yvp9ub[oinpm]
   # Job 2: build the image and run all tests
   build-and-test:
     # Wait for lint to pass first. If lint fails, this job is skipped
@@ -49,7 +49,7 @@ jobs:
           # (without this, Buildx would build it and then discard it)
           load: true
           # Name and tag the image, same as: docker build -t expo:1.0 .
-          tags: expo:1.0ioy8tcofyiguoh
+          tags: expo:1.0
 
       - name: Run test script
         # The | lets you write several commands on separate lines
